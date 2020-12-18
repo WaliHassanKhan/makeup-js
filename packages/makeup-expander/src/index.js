@@ -43,7 +43,7 @@ function onHostMouseDown() {
 function onHostClick() {
     this._expandWasKeyboardClickActivated = this._keyboardClickFlag;
     this._expandWasMouseClickActivated = this._mouseClickFlag;
-    this.expanded = !this.expanded;
+    this.expanded = true;
 }
 
 function onHostFocus() {
